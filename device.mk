@@ -28,6 +28,9 @@ DEVICE_PATH := device/xiaomi/tulip
 $(call inherit-product, $(DEVICE_PATH)/properties.mk)
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
+# APEX
+ENABLE_APEX := true
+
 # Enable updatable APEX
 ifeq ($(ENABLE_APEX), true)
 TARGET_SUPPORTS_UPDATABLE_APEX := true
