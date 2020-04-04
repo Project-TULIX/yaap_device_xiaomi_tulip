@@ -2,6 +2,10 @@
 get_prop(system_app, theme_prop)
 set_prop(system_app, theme_prop) 
 
+# FPS Info
+allow system_app sysfs_graphics:dir search;
+allow system_app sysfs_graphics:file { getattr open read write };
+
 # Vibrator
 allow system_app sysfs_vibrator:dir search;
 allow system_app sysfs_vibrator:file rw_file_perms;
