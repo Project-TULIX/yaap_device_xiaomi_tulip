@@ -28,8 +28,10 @@ DEVICE_PATH := device/xiaomi/tulip
 $(call inherit-product, $(DEVICE_PATH)/properties.mk)
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
-# Inherit updatable APEX
+# Enable updatable APEX
+ifeq ($(ENABLE_APEX), true)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+endif
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
