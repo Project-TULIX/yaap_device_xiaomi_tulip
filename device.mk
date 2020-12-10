@@ -29,7 +29,9 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Enable updatable APEX
 ifeq ($(ENABLE_APEX), true)
+TARGET_SUPPORTS_UPDATABLE_APEX := true
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+$(call inherit-product-if-exists, vendor/prebuilts/config/apex.mk)
 endif
 
 # Setup dalvik vm configs
