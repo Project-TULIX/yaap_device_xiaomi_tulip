@@ -53,6 +53,11 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a73
 
+# APEX image
+ifeq ($(ENABLE_APEX), true)
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+endif
+
 # Broken Build Rules
 BUILD_BROKEN_DUP_RULES := true
 
