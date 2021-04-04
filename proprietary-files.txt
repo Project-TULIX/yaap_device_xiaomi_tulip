@@ -806,7 +806,6 @@ vendor/firmware/fpctzappfingerprint.mdt|f709249da0d08cdcf43f561782ac3d6695a154ec
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk|9aa63e30e79364e296061a69a77c8c6e00ea89d4
 vendor/etc/permissions/com.fingerprints.extension.xml|de711d8827e1d321b22b60fd75a204e8928f9c6d
 vendor/framework/com.fingerprints.extension.jar|92c84a6f1ecc47be4a1e447fa057dc732a3e9579
-vendor/lib/vendor.qti.hardware.fingerprint@1.0.so|d7724df4ba176e3be1adb208119dba50d6453a94
 vendor/lib64/hw/fingerprint.fpc.default.so|75fb79b00c7f0280bd71153e14f1d238f2668eb9
 vendor/lib64/hw/fingerprint.goodix.default.so|72fece09819284c3dbdb81f8b1ec7b4535ca3399
 vendor/lib64/com.fingerprints.extension@1.0.so|3071f86486e0de18f0b14cf4b9beb49978335e4b
