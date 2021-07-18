@@ -56,6 +56,8 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a73
 # APEX image
 ifeq ($(ENABLE_APEX), true)
 DEXPREOPT_GENERATE_APEX_IMAGE := true
+else
+OVERRIDE_TARGET_FLATTEN_APEX := true
 endif
 
 # Broken Build Rules
