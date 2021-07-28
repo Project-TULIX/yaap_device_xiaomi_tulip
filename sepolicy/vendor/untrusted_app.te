@@ -1,0 +1,4 @@
+get_prop(untrusted_app, virtual_ab_prop);
+
+# Theme
+dontaudit untrusted_app theme_prop:file { open };

@@ -1,0 +1,2 @@
+# Theme
+dontaudit untrusted_app_27 theme_prop:file { getattr };
