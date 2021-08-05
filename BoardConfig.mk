@@ -53,9 +53,6 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a73
 
-# APEX
-TARGET_FLATTEN_APEX := false
-
 # Broken Build Rules
 BUILD_BROKEN_DUP_RULES := true
 
